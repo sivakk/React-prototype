@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Header from './Shared/Header';
+import Carousel from './Shared/Carousel';
+import Card from './Shared/Card';
+import NewCard from './Shared/NewCard';
 import './App.css';
+import "mdbreact/dist/css/mdb.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 class App extends Component {
   render() {
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      < div  >
+        <Header />
+        <Carousel />
+        <Card />
+        <Card />
+        <Card />
+        <NewCard />
+
+
       </div>
     );
   }

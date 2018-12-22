@@ -1,32 +1,114 @@
-.App {
-  text-align: center;
+
+.navbar-fixed-bottom{
+  width:1400px;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.signin
+{
+  float: left;
+}
+.signup
+{
+  float: right;;
+}
+.space{
+  margin-top: 0.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box-width{
+  width: 365px;
+}
+.imgh{
+  
+    width: 154px;
+    height: 100px;
+
+}
+.changecolor {
+  background-color:greenyellow;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel
+{
+  width: 100px;
+  height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.btnv
+{
+  position: absolute;
+  right: 0px;
+}
+.logoImg
+{
+  width: 200px;
+  height: 40px;
+  /* background-color: red; */
+  background: url('./Shared/flyta.png') no-repeat;
+  background-size: 200px 40px;
+}
+.div1
+{
+  padding-left:150px !important;
+}
+.logoImg1
+{
+  width: 200px;
+  height: 40px;
+  /* background-color: red; */
+  background: url('./Shared/musica-searcher.png') no-repeat;
+  background-size: 25px 25px;
+  margin-top:18px;
+}
+
+
+.box-width
+{
+  width:350px !important;
+}
+
+header .logo  {
+  background: url('./Shared/flyta.png') no-repeat;
+  
+   /* width: 100px; 
+  height:50px; */
+  
+
+}
+.navbar-inner {
+  height: 40px;  
+}
+.navbar-inner1 {
+  height: 40px;  
+}
+.divCard
+{
+  height: 200px;
+  background-color:white;
+    padding-left: 0px;
+}
+.div2
+{
+  padding-left: 1px !important;
+  padding-right: 5px !important;
+  
+}
+.siva
+{
+  padding-left: 110px;
+}
+.btnstyle
+{
+  height: 35px;
+}
+.sai{
+  padding-left:50px;
+}
+
+.modal-footer
+{
+  position:absolute;
+  bottom: 0px;
 }
